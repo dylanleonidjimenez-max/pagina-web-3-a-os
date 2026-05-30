@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestras Canciones</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* 👈 colores románticos */
+      color: #333;
+    }
+
+    /* Menú */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ff4d6d;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe0ec;
+    }
+
+    /* Contenedor principal */
+    .contenido {
+      margin-top: 100px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ff4d6d;
+      margin-bottom: 30px;
+    }
+
+    /* Lista de canciones */
+    .playlist {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .cancion {
+      background: white;
+      padding: 15px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+    }
+
+    .cancion img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      margin-right: 15px;
+      box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+    }
+
+    .info {
+      flex: 1;
+      text-align: left;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #ff4d6d;
+    }
+
+    .info p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    audio {
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Menú -->
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="galeria.html">Galería</a>
+    <a href="sobre.html">Sobre Nosotros</a>
+    <a href="contacto.html">Nuestras Canciones</a>
+  </nav>
+
+  <!-- Contenido -->
+  <div class="contenido">
+    <h1>🎵 Canciones que te he dedicado</h1>
+    <div class="playlist">
+      <div class="cancion">
+        <img src="img2/01.jpeg" alt="Album 1">
+        <div class="info">
+          <h3>Una</h3>
+          <p>Blessd</p>
+        </div>
+        <audio controls>
+          <source src="audio/Una.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="cancion">
+        <img src="img2/03.jpeg" alt="Album 2">
+        <div class="info">
+          <h3>Morena</h3>
+          <p>Blessd</p>
+        </div>
+        <audio controls>
+          <source src="audio/Morena.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="cancion">
+        <img src="img2/02.jpeg" alt="Album 3">
+        <div class="info">
+          <h3>Pesandpo en ti</h3>
+          <p>Blessd</p>
+        </div>
+        <audio controls>
+          <source src="audio/Pensando en Ti.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+       <div class="cancion">
+    <img src="img2/04.jpeg" alt="Album 4">
+    <div class="info">
+      <h3>Palabras sobran</h3>
+      <p>Blessd</p>
+    </div>
+    <audio controls>
+      <source src="audio/Palabras sobran.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+   <div class="cancion">
+    <img src="img2/05.jpeg" alt="Album 4">
+    <div class="info">
+      <h3>A mi</h3>
+      <p>Rels B</p>
+    </div>
+    <audio controls>
+      <source src="audio/A mi.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+   <div class="cancion">
+    <img src="img2/06.jpeg" alt="Album 4">
+    <div class="info">
+      <h3>La vida sin ti</h3>
+      <p>Rels B</p>
+    </div>
+    <audio controls>
+      <source src="music/La Vida Sin Ti.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+   <div class="cancion">
+    <img src="img2/07.jpeg" alt="Album 4">
+    <div class="info">
+      <h3>Vamonos</h3>
+      <p>Kidd Keo</p>
+    </div>
+    <audio controls>
+      <source src="audio/VAMONOS.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+    <div class="cancion">
+    <img src="img2/08.jpeg" alt="Album 4">
+    <div class="info">
+      <h3>Besos</h3>
+      <p>Kidd Keo</p>
+    </div>
+    <audio controls>
+      <source src="audio/Besos.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+
+    </div>
+  </div>
+
+</body>
+</html>
